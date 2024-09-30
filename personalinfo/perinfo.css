@@ -1,0 +1,116 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #17252A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for form */
+.container {
+    background: #3AAFA9;
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* backdrop-filter: blur(); */
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+}
+
+/* Form Header */
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-header h1 {
+    font-size: 34px;
+    color: #000000;
+}
+
+.form-header p {
+    color: #000000;
+}
+
+/* Flexbox for rows with two fields */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-row .form-group {
+    width: 48%;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+/* Inputs */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+/* Smaller placeholder text */
+.form-group input::placeholder {
+    font-size: 12px;
+    color: #757474;
+}
+
+/* Focus State */
+.form-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Submit Button */
+.btn-submit {
+    width: 20%;
+    padding: 15px;
+    background-color: #ff7b00;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #fd6500;
+}
+.bx{
+    color: #d1d2d3;
+    position: absolute;
+    font-size: 60px;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+    
+}
